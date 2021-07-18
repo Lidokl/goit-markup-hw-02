@@ -1,0 +1,198 @@
+body {
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400
+}
+
+/* logo */
+
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* шапка */
+.header {
+  background: #ffffff;
+}
+
+.nav-site,
+.nav-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.06;
+  list-style: none;
+}
+
+.nav-site-link {
+  color: #212121;
+}
+
+.nav-info-link {
+  color: #757575;
+}
+.nav-site-link,
+.nav-info-link {
+  text-decoration: none;
+}
+
+/* герой */
+.hero {
+  background: #2f303a;
+}
+.hero-text {
+  color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  background: #2196f3;
+  color: #ffffff;
+
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor:pointer;
+
+}
+
+/* section */
+
+
+
+.section, .feature {
+ 
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.feature-text {
+ 
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
+
+.work {
+  color: #212121;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.work, .img {
+  list-style: none;
+}
+
+/*наша команда */
+
+.team {
+  
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+
+.team-work {
+  list-style: none;
+}
+
+.team-list {
+color: #212121;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+.team-text {
+ color: #757575;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+
+/*  цвет основного текста # */
+
+/*  вторичный цвет*/
+
+/* белый */
+
+/*  */
+
+/* подвал */
+
+.footer {
+  font-family: inherit;
+  background-color: #2f303a;
+
+  font-size: 14px;
+}
+
+.footer-address {
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-address-navigate {
+  color: rgba(255, 255, 255, 0.6);
+  list-style: none;
+  text-decoration: none;
+  font-style: normal;
+}
+
+
+
+font-weight
