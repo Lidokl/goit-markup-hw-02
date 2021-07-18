@@ -2,7 +2,7 @@ body {
   background-color: #ffffff;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 400
+  font-weight: 400;
 }
 
 /* logo */
@@ -81,61 +81,53 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
-  cursor:pointer;
-
+  cursor: pointer;
 }
 
 /* section */
 
+.section,
+.feature {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-
-.section, .feature {
- 
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
+  color: #212121;
 }
 
 .feature-text {
- 
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 
+  letter-spacing: 0.03em;
 
-letter-spacing: 0.03em;
-
-color: #757575;
+  color: #757575;
 }
-
 
 .work {
   color: #212121;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.work, .img {
+.work,
+.img {
   list-style: none;
 }
 
 /*наша команда */
 
 .team {
-  
-font-weight: bold;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .team-work {
@@ -143,21 +135,20 @@ color: #212121;
 }
 
 .team-list {
-color: #212121;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .team-text {
- color: #757575;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.18;
-letter-spacing: 0.03em;
+  color: #757575;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
-
 
 /*  цвет основного текста # */
 
@@ -180,7 +171,6 @@ letter-spacing: 0.03em;
   color: #ffffff;
   list-style: none;
   text-decoration: none;
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -193,6 +183,37 @@ letter-spacing: 0.03em;
   font-style: normal;
 }
 
+/* Портфолио */
 
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 
-font-weight
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.portfolio {
+}
+
+.portfolio-list-title {
+  list-style: none;
+}
+
+.portfolio-list-link {
+  color: #212121;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-list-text {
+  color: #757575;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
