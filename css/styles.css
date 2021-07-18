@@ -53,8 +53,15 @@ body {
 .nav-info-link {
   text-decoration: none;
 }
+.nav-site :hover,
+.nav-site :focus {
+  color: #2196f3;
+}
+.nav-info :hover,
+.nav-info :focus {
+  color: #2196f3;
+}
 
-/* герой */
 .hero {
   background: #2f303a;
 }
@@ -195,8 +202,8 @@ body {
 
   color: #212121;
 }
-
-.portfolio {
+.pointer {
+  cursor: pointer;
 }
 
 .portfolio-list-title {
