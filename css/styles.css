@@ -1,6 +1,17 @@
+:root {
+  --primary-text-color: #212121;
+  --primary-bgc: #ffffff;
+  --secondary: rgba(255, 255, 255, 0.6);
+  --button-bgc: #ffffff;
+  --title-color: #757575;
+  --title-wite: #2f303a;
+  --accent-color: #2196f3;
+}
+
 body {
-  background-color: #ffffff;
-  font-family: Roboto;
+  color: var(--primari-text-color);
+  background-color: var(--primary-bgc);
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -10,19 +21,18 @@ body {
 .logo {
   color: var(--title-text-color);
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
 }
 
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-.logo-studio-footer {
-  color: #ffffff;
+.logo-footer {
+  color: var(--button-bgc);
 }
 
 .logo:hover {
@@ -31,43 +41,42 @@ body {
 
 /* шапка */
 .header {
-  background: #ffffff;
+  background: var(--primari-bgc);
 }
 
-.nav-site,
-.nav-info {
+.nav-list,
+.info-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.06;
   list-style: none;
 }
 
-.nav-site-link {
-  color: #212121;
+.nav-link {
+  color: var(--primary-text-color);
 }
 
-.nav-info-link {
-  color: #757575;
+.info-link {
+  color: var(--title-color);
 }
-.nav-site-link,
-.nav-info-link {
+.nav-link,
+.info-link {
   text-decoration: none;
 }
-.nav-site :hover,
-.nav-site :focus {
-  color: #2196f3;
+.nav-list :hover,
+.nav-list :focus {
+  color: var(--accent-color);
 }
-.nav-info :hover,
-.nav-info :focus {
-  color: #2196f3;
+.info-list :hover,
+.info-list :focus {
+  color: var(--accent-color);
 }
 
 .hero {
-  background: #2f303a;
+  background: var(--title-wite);
 }
 .hero-text {
-  color: #ffffff;
-
+  color: var(--primary-bgc);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -76,8 +85,8 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--accent-color);
+  color: var(--primary-bgc);
 
   font-family: inherit;
   display: flex;
@@ -99,22 +108,22 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #212121;
+  list-style: none;
+  color: var(--primary-text-color);
 }
 
 .feature-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-
+  list-style: none;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--title-color);
 }
 
 .work {
-  color: #212121;
+  color: var(--primary-text-color);
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -129,12 +138,12 @@ body {
 /*наша команда */
 
 .team {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
+  text-align: center;
 }
 
 .team-work {
@@ -142,7 +151,7 @@ body {
 }
 
 .team-list {
-  color: #212121;
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -150,32 +159,22 @@ body {
 }
 
 .team-text {
-  color: #757575;
+  color: var(--title-color);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
-/*  цвет основного текста # */
-
-/*  вторичный цвет*/
-
-/* белый */
-
-/*  */
-
-/* подвал */
-
 .footer {
   font-family: inherit;
-  background-color: #2f303a;
+  background-color: var(--title-wite);
 
   font-size: 14px;
 }
 
 .footer-address {
-  color: #ffffff;
+  color: var(--primary-bgc);
   list-style: none;
   text-decoration: none;
   font-size: 14px;
@@ -184,7 +183,7 @@ body {
 }
 
 .footer-address-navigate {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--secondary);
   list-style: none;
   text-decoration: none;
   font-style: normal;
@@ -192,33 +191,41 @@ body {
 
 /* Портфолио */
 
-.button {
+/* кнопки в портфолио*/
+.portfolio-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-
-  text-align: center;
   letter-spacing: 0.03em;
+  font-family: inherit;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
-.pointer {
-  cursor: pointer;
-}
-
-.portfolio-list-title {
+.button-filtr {
   list-style: none;
 }
 
-.portfolio-list-link {
-  color: #212121;
+.button :hover {
+  background-color: var(--accent-color);
+}
+
+.button {
+  cursor: pointer;
+}
+
+.portfolio-title {
+  list-style: none;
+}
+
+.portfolio-link {
+  color: var(--primary-text-color);
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfolio-list-text {
-  color: #757575;
+.portfolio-text {
+  color: var(--title-color);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
