@@ -41,6 +41,10 @@ body {
   background: var(--primari-bgc);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 .nav-list,
 .info-list {
   font-weight: 500;
