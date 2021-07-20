@@ -6,6 +6,7 @@
   --title-color: #757575;
   --title-wite: #2f303a;
   --accent-color: #2196f3;
+  --bgc-button: #f5f4fa;
 }
 
 body {
@@ -33,10 +34,6 @@ body {
 
 .logo-footer {
   color: var(--button-bgc);
-}
-
-.logo:hover {
-  color: var(--accent-color);
 }
 
 /* шапка */
@@ -70,6 +67,7 @@ body {
 .info-list :hover,
 .info-list :focus {
   color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .hero {
@@ -84,11 +82,10 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.hero-button {
-  background: var(--accent-color);
+.hero .hero-button {
+  background-color: var(--accent-color);
   color: var(--primary-bgc);
 
-  font-family: inherit;
   display: flex;
   align-items: center;
   text-align: center;
@@ -96,8 +93,14 @@ body {
   border-radius: 4px;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.87;
   cursor: pointer;
+}
+
+.hero .hero-button:focus,
+.hero .hero-button:hover {
+  color: var(--primary-bgc);
+  background-color: var(--accent-color);
 }
 
 /* section */
@@ -145,7 +148,9 @@ body {
   color: var(--primary-text-color);
   text-align: center;
 }
-
+.team-info {
+  background-color: #f5f4fa;
+}
 .team-work {
   list-style: none;
 }
@@ -192,25 +197,26 @@ body {
 /* Портфолио */
 
 /* кнопки в портфолио*/
-.portfolio-button {
+.filter .filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
-  font-family: inherit;
-
-  color: var(--primary-text-color);
+  border-radius: 4px;
+  background: var(--bgc-button);
+  cursor: pointer;
+  color: varvar(--accent-color);
+  font-style: normal;
+  text-align: center;
 }
-.button-filtr {
+
+.filter {
   list-style: none;
 }
 
-.button :hover {
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+  color: var(--button-bgc);
   background-color: var(--accent-color);
-}
-
-.button {
-  cursor: pointer;
 }
 
 .portfolio-title {
