@@ -41,7 +41,7 @@ body {
   background: var(--primari-bgc);
 }
 
-.current {
+.nav-link.current {
   color: var(--accent-color);
 }
 
